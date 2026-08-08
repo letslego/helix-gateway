@@ -1,5 +1,5 @@
 import { completeWithFallback } from "./provider.js";
-export { complete, completeWithFallback } from "./provider.js";
+export { complete, completeWithFallback, } from "./provider.js";
 /** Local-first AI Gateway: intent routes + fallback chains + providers. */
 export class HelixGateway {
     config;

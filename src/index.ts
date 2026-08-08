@@ -9,7 +9,12 @@ import type {
 } from "./types.js";
 
 export type * from "./types.js";
-export { complete, completeWithFallback } from "./provider.js";
+export {
+  complete,
+  completeWithFallback,
+  type ModelRequest,
+  type ModelResponse,
+} from "./provider.js";
 
 export interface GatewayRouteResult {
   model: string;
