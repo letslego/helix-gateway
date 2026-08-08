@@ -1,7 +1,7 @@
 {
   "name": "@letslego/helix-gateway",
   "version": "0.1.0",
-  "description": "Local-first AI Gateway for Helix \u2014 intent routing, fallbacks, provider adapters.",
+  "description": "Local-first AI Gateway for Helix — intent routing, fallbacks, provider adapters.",
   "type": "module",
   "license": "Apache-2.0",
   "repository": {
@@ -25,7 +25,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && node --import tsx --test test/**/*.test.ts",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepare": "npm run build"
   },
   "engines": {
     "node": ">=20"
